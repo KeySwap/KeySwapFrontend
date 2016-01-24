@@ -1,0 +1,15 @@
+.jumbotron {
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+  background-image: url(http://images.akamai.steamusercontent.com/ugc/595890203982443538/8F2144348A8A541CAEF4AABB4E5C651E2DDE8984/);
+  background-size: cover;
+  background-position: center;
+}
+
+.jumbotron h1 {
+    color: #fff !important;
+}
+
+.jumbotron p {
+    color: #fff;
+}
