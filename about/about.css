@@ -12,7 +12,7 @@
 }
 
 #buhwow {
-  float:right !important;
+  float: right !important;
   text-align: left;
 }
 
@@ -20,12 +20,15 @@
   background-color: #333;
   color: #fff;
   padding: 30px 0;
+  width: 100% !important;
 }
 
 .footer p {
-
   text-align: center;
+}
 
+.footer a {
+  text-align: center;
 }
 
 #steamtext {
