@@ -14,12 +14,9 @@
     color: #fff;
 }
 
-img {
+div div img.center {
+  
   margin: 0 auto;
-}
-
-#home-carousel {
-  background-color: grey;
 }
 
 * {
