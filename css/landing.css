@@ -23,8 +23,18 @@ img {
   background-color: grey;
 }
 
+.wrapper {
+  text-align: center;
+}
+
 * {
   font-family: "Raleway", sans-serif;
+}
+
+#go {
+  background-color: green;
+  color:white;
+  font-family: "Raleway" sans-serif !important;
 }
 
 .footer {
