@@ -35,27 +35,32 @@
       </div>
     </nav>
 
-    <form>
 
+<!--http://stackoverflow.com/questions/32252020/socket-io-send-form-data-from-client-to-server-->
+    <script>
+      var socket = io(http://localhost);
+      $('#form').submit(function(){
+        socket.emit('message', $('#Input').val());
+        return false;
+      });
+    </script>
+
+    <form>
       <div class="formwrapper">
         <h3>What kind of key do you want?</h3>
-        <input type="radio" name="key-want" value="MannCo" name="group1" checked>Mann. Co<br>
-        <input type="radio" name="key-want" value="GunMettle" name="group1">Gun Mettle<br>
-        <input type="radio" name="key-want" value="ToughBreak" name="group1">Tough Break
+        <input type="radio" name="key-want" value="WantMannCo" name="group1" checked>Mann. Co<br>
+        <input type="radio" name="key-want" value="WantGunMettle" name="group1">Gun Mettle<br>
+        <input type="radio" name="key-want" value="WantToughBreak" name="group1">Tough Break
 
         <h3>What kind of key do you currently have tradable?</h3>
-        <input type="radio" name="key-have" value="MannCo" checked>Mann. Co<br>
-        <input type="radio" name="key-have" value="GunMettle">Gun Mettle<br>
-        <input type="radio" name="key-have" value="ToughBreak">Tough Break
+        <input type="radio" name="key-have" value="HaveMannCo" checked>Mann. Co<br>
+        <input type="radio" name="key-have" value="HaveGunMettle">Gun Mettle<br>
+        <input type="radio" name="key-have" value="HaveToughBreak">Tough Break
 
         <p>
-
         </p>
-
         <input type="submit" value="Submit" id="submit">
-
       </div>
-
     </form>
 
 <p>
