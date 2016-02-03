@@ -34,8 +34,9 @@ img {
 #go {
   background-color: #6ED3CF;
   color:white;
-  font-family: "Raleway" sans-serif !important;
-  border-style: none;
+  font-family: "Raleway" sans-serif;
+  font-weight: 200;
+  border-style: none !important;
 }
 
 .footer {
