@@ -50,16 +50,8 @@
 
     <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
     <script src="http://code.jquery.com/jquery-1.11.1.js"></script>
-<!--http://stackoverflow.com/questions/32252020/socket-io-send-form-data-from-client-to-server-->
-    <script>
-      var socket = io(http://localhost);
-      $('#form')
-      submit(function(){
-        socket.emit('message', $('#Input').val());
-        return false;
-      });
-    </script>
 
+<!--
     <form>
       <div class="formwrapper">
         <h3>What kind of key do you want?</h3>
@@ -77,6 +69,63 @@
         <input type="submit" value="Submit" id="submit">
       </div>
     </form>
+-->
+    <!--http://stackoverflow.com/questions/32252020/socket-io-send-form-data-from-client-to-server-->
+        <script>
+          var socket = io(http://localhost);
+          $('#form').submit(function(){
+            socket.emit('message', $('#Input').val());
+            return false;
+          });
+        </script>
+
+
+    <div class="col-md-12" >
+      <h2>Bot does not support online trade requests currently</h2>
+      <p>
+          Sorry about that. We hope to change that within the next two months.
+      </p>
+
+      <p>
+        You can still trade with the bot. Here's how:
+      </p>
+
+      <ol>
+        <li>
+          Add the bot on <a href="http://steamcommunity.com/id/thekeytosuccessbot">Steam</a>
+        </li>
+
+        <li>
+          Send a steam message saying !trade x y (where x is the code of the key you want and y is code of the key you have)
+
+          <ul>
+            <li>
+              Mann. Co Key = 1
+            </li>
+            <li>
+              Gun Mettle Case Key = 2
+            </li>
+            <li>
+              Gun Mettle Cosmetic Key = 3
+            </li>
+            <li>
+              Tough Break Case Key = 4
+            </li>
+            <li>
+              Tough Break Cosmetic Key = 5
+            </li>
+          </ul>
+
+        </li>
+
+        <li>
+          The bot will send you an offer!
+        </li>
+
+      </ol>
+
+    </div>
+
 
 <p>
 
