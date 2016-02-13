@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+#text {
+  padding-left: 30px;
+}
+
 #submit {
   border-style: none;
   background-color: #6ED3CF;
