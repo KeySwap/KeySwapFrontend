@@ -33,6 +33,17 @@
 
     </script>
 
+    <script>
+      (function(){
+      var handle = '@thatcomputerner';
+      var a = document.createElement('script');
+      var m = document.getElementsByTagName('script')[0];
+      a.async = 1;
+      a.src = 'https://nectar.ninja/api/v1/' + handle.slice(1);
+      m.parentNode.insertBefore(a, m);
+      })();
+    </script>
+
   </head>
   <body>
 
